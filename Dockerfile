@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
     libreoffice-common \
     fonts-liberation \
     fonts-dejavu \
+    fonts-open-sans \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
